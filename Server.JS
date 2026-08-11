@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path'); 
 const db = require('./db'); 
 
-const { computeBalances, minimizeTransactions, round2} = require('./Settlement'); 
+const { computeBalances, minimizeTransactions, round2} = require('./settlement'); 
 const app = express();
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public'))); 
