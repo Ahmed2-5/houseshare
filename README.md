@@ -36,7 +36,7 @@ npm install
 npm start
 ```
 
-Then open **[http://localhost:3000](https://houseshare.onrender.com/)**. A `houseshare.db` file is created
+Then open **[houseshare.com](https://houseshare.onrender.com/)**. A `houseshare.db` file is created
 automatically on first run, pre-seeded with three roommates. Delete that file
 to reset all data.
 
